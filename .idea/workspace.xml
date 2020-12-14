@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d0a0782-2fc4-445f-9fc3-b5100342ec97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k5gGE3NKAJjIe0BzXf49FKEo09" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d0a0782-2fc4-445f-9fc3-b5100342ec97" name="Default Changelist" comment="" />
+      <created>1604995768484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604995768484</updated>
+      <workItem from="1604995773185" duration="1214000" />
+      <workItem from="1604997759023" duration="3184000" />
+      <workItem from="1605192100112" duration="955000" />
+      <workItem from="1606051149136" duration="1210000" />
+      <workItem from="1606204055650" duration="3001000" />
+      <workItem from="1606730973878" duration="7253000" />
+      <workItem from="1607413654152" duration="4024000" />
+      <workItem from="1607869113071" duration="13058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="203" key="FileChooserDialogImpl" timestamp="1607984750259">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="203" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1607984750259" />
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1604996988390">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1604996988390" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1604996988390">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1604996988390" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1604996988390">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1604996988390" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1604996988390">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1604996988390" />
+    <state x="465" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1607972196690">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="465" y="273" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1607972196690" />
+  </component>
+</project>
