@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d0a0782-2fc4-445f-9fc3-b5100342ec97" name="Default Changelist" comment="" />
+    <list default="true" id="4d0a0782-2fc4-445f-9fc3-b5100342ec97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/LoginManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/UserToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/LoggedManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/UsersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/UsersManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/UsersResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/cz/educanet/webik/UsersResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/EducanetWebik.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/ApiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/ApiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/UsersManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/UsersManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/UsersResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/UsersResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EducanetWebik/WEB-INF/classes/cz/educanet/webik/Uzivatel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/webik/ApiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/webik/ApiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/webik/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/webik/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/webik/UsersManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/webik/UsersManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cz/educanet/webik/UsersResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cz/educanet/webik/UsersResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +50,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k5gGE3NKAJjIe0BzXf49FKEo09" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +62,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,7 +85,11 @@
       <workItem from="1606204055650" duration="3001000" />
       <workItem from="1606730973878" duration="7253000" />
       <workItem from="1607413654152" duration="4024000" />
-      <workItem from="1607869113071" duration="13058000" />
+      <workItem from="1607869113071" duration="15160000" />
+      <workItem from="1610300162289" duration="590000" />
+      <workItem from="1610999781973" duration="592000" />
+      <workItem from="1612802171546" duration="4845000" />
+      <workItem from="1612860154394" duration="21954000" />
     </task>
     <servers />
   </component>
@@ -51,10 +97,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="203" key="FileChooserDialogImpl" timestamp="1607984750259">
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1615405726087">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="549" y="203" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1607984750259" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1615405726087" />
+    <state x="549" y="203" key="FileChooserDialogImpl" timestamp="1607986068185">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="203" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1607986068185" />
     <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1604996988390">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -71,9 +121,13 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1604996988390" />
-    <state x="465" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1607972196690">
+    <state x="277" y="91" key="SettingsEditor" timestamp="1615399772599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="465" y="273" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1607972196690" />
+    <state x="277" y="91" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1615399772599" />
+    <state x="465" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1612860152553">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="465" y="273" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1612860152553" />
   </component>
 </project>

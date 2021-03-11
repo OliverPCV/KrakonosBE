@@ -1,32 +1,46 @@
 package cz.educanet.webik;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 
 @ApplicationScoped
 public class UsersManager {
-    private List<User> userlist = new ArrayList<User>();
+    @Inject
+    private LoginManager loginManager;
 
-    public boolean existujeJmeno(String jmeno) {
-        for (User user : userlist) {
-            if (user.dostanJmeno().equals(jmeno)) {
-                return true;
-            }
-        }
-        return false;
+    private ArrayList<User> userList = new ArrayList<>();
+
+    public ArrayList<User> dostanJmenos() {
+        return userList;
     }
 
-    public void uloz(User docasnyUser) {
-        userlist.add(docasnyUser);
+    public boolean create(User user) {
+        user.setId(userList.size());
+        return userList.add(user);
     }
 
-    public User ziskejJmenoHeslo(String jmeno, String heslo) {
-        for (int i = 0; i < userlist.size(); i++) {
-            if(userlist.get(i).dostanJmeno().equals(jmeno) && (userlist.get(i).dostanHeslo().equals(heslo))) {
-                return userlist.get(i);
-            }
-        }
+    public UserToken checkniJmenos(User user) {
+        Optional<User> tempUser = userList.stream()
+                .filter(u -> u.getJmeno().equals(user.getJmeno()))
+                .findFirst();
+        if (tempUser.isPresent() && Objects.equals(tempUser.get().getHeslo(), user.getHeslo()))
+            return loginManager.createToken();
         return null;
     }
+
+    public User dostanJmenos(int id) {
+        return userList.stream()
+                .filter(userListStream -> id == userListStream.getID())
+                .findAny()
+                .orElse(null);
+    }
+
+    public boolean odstranJmenos(int id) {
+        return userList.remove(id) != null;
+    }
+
 }

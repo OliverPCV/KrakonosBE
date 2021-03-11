@@ -1,22 +1,25 @@
 package cz.educanet.webik;
 
 public class User {
-    private String jmeno;
-    private String heslo;
-    private String prijmeni;
-    private String prvniJmeno;
-    private String email;
+    public String jmeno, heslo;
+    public int id, code;
 
-    public User(String prvniJmeno, String jmeno, String heslo, String prijmeni, String email) {
+    public String getJmeno() { return jmeno; }
+    public String getHeslo() { return heslo; }
+    public int getID() { return id; }
+    public int getCode() { return code; }
+
+    public String setUser(String jmeno) { return this.jmeno = jmeno; }
+    public String setHeslo(String heslo){ return this.heslo = heslo;}
+    public int setId(int id) { return this.id = id; }
+    public int setCode(int code) { return this.code = code; }
+
+    public void setJmeno(String jmeno) {
         this.jmeno = jmeno;
-        this.heslo = heslo;
-        this.email = email;
-        this.prijmeni = prijmeni;
-        this.prvniJmeno = prvniJmeno;
     }
 
-    public String dostanJmeno() { return jmeno; }
-    public String dostanHeslo() { return heslo; }
-
-    public String prejmenujUser(String noveJmeno) { return jmeno = noveJmeno; }
+    public int getId() {
+        return id;
+    }
 }
+
