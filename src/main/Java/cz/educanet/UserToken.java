@@ -1,4 +1,4 @@
-package cz.educanet.webik;
+package cz.educanet;
 
 import java.util.UUID;
 
